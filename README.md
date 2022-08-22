@@ -1,4 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Predicting Home Prices in Ames, IA (Kaggle challenge)
+# Predicting Home Prices in Ames, IA (Kaggle challenge)
 
 ### Contents:
 - [Background](#Background)
@@ -25,7 +25,7 @@ We will explore if these features have any noticeable affects home prices in Ame
 
 From the raw data alone we can already get a good sense of what features matter most to the price of a home: 
 
-# ![](https://git.generalassemb.ly/jserigano4/project_2/blob/main/figures/corr.png)
+# ![](https://github.com/jserigano4/predicting_home_prices_Ames_IA/blob/main/figures/corr.png)
 
 The heat map above shows the correlation between Sale Price of a home and all numeric features included in the data set. Overall quality and features related to home size show the strongest correlation to home sale price. 
 
@@ -39,14 +39,14 @@ To tackle this problem we use a Lasso linear regression model. This is advantage
 
 In the end, our model does a pretty good job at fitting the data. 87.2% of the variance/variability in home sale price in our test data can be explained by the features in our model. Additionally, our model passes the LINEM assumptions associated with linear regression models.
 
-# ![](https://git.generalassemb.ly/jserigano4/project_2/blob/main/figures/resids_scatter.png)
+# ![](https://github.com/jserigano4/predicting_home_prices_Ames_IA/blob/main/figures/resids_scatter.png)
 
-# ![](https://git.generalassemb.ly/jserigano4/project_2/blob/main/figures/resids_hist.png)
+# ![](https://github.com/jserigano4/predicting_home_prices_Ames_IA/blob/main/figures/resids_hist.png)
 
 
 ## Conclusions and Recommendations
 
-# ![](https://git.generalassemb.ly/jserigano4/project_2/blob/main/figures/coefs.png)
+# ![](https://github.com/jserigano4/predicting_home_prices_Ames_IA/blob/main/figures/coefs.png)
 
 The figure above shows the 20 most important features for home price. We can conclude from our model that the overall size and quality of material and finish of the house are the most important features affecting home price. Three out of the top five strongest correlations to home price relate to the size of the home: Total square feet, total garage area, and ground floor living area. The amount of bathrooms and fireplaces also have a strong affect on home price, with an increase in the number of either feature having a roughly equal effect on home price. 
 
